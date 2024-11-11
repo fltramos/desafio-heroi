@@ -1,5 +1,5 @@
 let nomeDoHeroi = "PACO"
-let xp = 5000
+let xp = 10001
 let nivel = ""
 
 switch(true){   
@@ -35,7 +35,5 @@ switch(true){
         nivel = "RADIANTE"
         console.log(`O Herói de nome ${nomeDoHeroi} está no nível ${nivel}`)      
         break
-
-    default:
-        console.log(`O Herói de nome ${nomeDoHeroi} está sem XP`)
+    
 }
